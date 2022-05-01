@@ -10,7 +10,7 @@
     z-index: 0;
 }
 .row1{
-    border:solid black 1px;
+    /*border:solid black 1px;*/
     height:80px;
 }
 .row2{
@@ -22,6 +22,7 @@
     z-index: 2;
     position: relative;
     left:0px;
+    right:0px;
     top:560px;
     /*border:red solid 1px;*/
     width: 100%;
@@ -99,13 +100,13 @@ label{
 }
 .city{
     position: relative;
-    padding: 10px;
+    /*padding: 10px;*/
     left:25%;
     top:5%;
     float:left;
-    border:black 1px solid;
+    border:black 1px outset;
     border-radius: 120px;
-    margin: 25px;
+    margin: 30px;
     height:50%;
     width: 8%;
 }
